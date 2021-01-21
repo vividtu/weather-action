@@ -4,6 +4,8 @@ on:
   push:
   schedule:
     - cron: '0 21 * * *'
+  label:
+    types: [created, deleted]
 
 jobs:
   bot:
